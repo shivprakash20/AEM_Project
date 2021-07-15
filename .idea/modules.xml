@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/learning.all.iml" filepath="$PROJECT_DIR$/all/learning.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/learning.core.iml" filepath="$PROJECT_DIR$/core/learning.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dispatcher/learning.dispatcher.ams.iml" filepath="$PROJECT_DIR$/dispatcher/learning.dispatcher.ams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/learning.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/learning.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/learning.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/learning.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps.structure/learning.ui.apps.structure.iml" filepath="$PROJECT_DIR$/ui.apps.structure/learning.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.config/learning.ui.config.iml" filepath="$PROJECT_DIR$/ui.config/learning.ui.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/learning.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/learning.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.frontend/learning.ui.frontend.iml" filepath="$PROJECT_DIR$/ui.frontend/learning.ui.frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.tests/learning.ui.tests.iml" filepath="$PROJECT_DIR$/ui.tests/learning.ui.tests.iml" />
+    </modules>
+  </component>
+</project>

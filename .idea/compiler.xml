@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learning.all" />
+        <module name="learning.ui.config" />
+        <module name="learning.ui.apps.structure" />
+        <module name="learning.it.tests" />
+        <module name="learning.ui.content" />
+        <module name="learning.core" />
+        <module name="learning.ui.apps" />
+        <module name="learning.ui.tests" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learning" target="1.8" />
+      <module name="learning.all" target="1.8" />
+      <module name="learning.core" target="1.8" />
+      <module name="learning.dispatcher.ams" target="1.8" />
+      <module name="learning.it.tests" target="1.8" />
+      <module name="learning.ui.apps" target="1.8" />
+      <module name="learning.ui.apps.structure" target="1.8" />
+      <module name="learning.ui.config" target="1.8" />
+      <module name="learning.ui.content" target="1.8" />
+      <module name="learning.ui.frontend" target="1.8" />
+      <module name="learning.ui.tests" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
