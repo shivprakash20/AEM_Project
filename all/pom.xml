@@ -123,6 +123,21 @@
                             <type>zip</type>
                             <target>/apps/learning-vendor-packages/content/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>org.apache.servicemix.bundles</groupId>
+                            <artifactId>org.apache.servicemix.bundles.solr-solrj</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>org.apache.servicemix.bundles</groupId>
+                            <artifactId>org.apache.servicemix.bundles.zookeeper</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-content</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
