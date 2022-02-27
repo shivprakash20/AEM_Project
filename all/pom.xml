@@ -138,6 +138,11 @@
                             <artifactId>acs-aem-commons-content</artifactId>
                             <target>/apps/learning-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>mysql</groupId>
+                            <artifactId>mysql-connector-java</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>

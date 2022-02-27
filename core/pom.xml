@@ -157,6 +157,20 @@ Import-Package: javax.annotation;version=0.0.0,*
             <version>3.7.0_1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.protobuf</groupId>
+                    <artifactId>protobuf-java</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
         <!-- Other Dependencies -->
         <dependency>
             <groupId>org.slf4j</groupId>
