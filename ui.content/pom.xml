@@ -104,7 +104,7 @@
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
-            <version>5.1.2</version>
+            <version>5.2.0</version>
             <type>content-package</type>
             <classifier>min</classifier>
         </dependency>

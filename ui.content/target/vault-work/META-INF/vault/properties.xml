@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Leaning - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">com.adobe.learning:learning.ui.apps:1.0.0-SNAPSHOT=maven:com.adobe.learning:learning.ui.apps:1.0.0-SNAPSHOT:zip</entry>
+<entry key="created">2024-09-11T16:54:39.660Z</entry>
+<entry key="groupId">com.adobe.learning</entry>
+<entry key="description">UI content package for AEM Leaning</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.adobe.learning:learning.ui.apps:1.0.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">learning.ui.content</entry>
+<entry key="artifactId">learning.ui.content</entry>
+<entry key="group">com.adobe.learning</entry>
+</properties>

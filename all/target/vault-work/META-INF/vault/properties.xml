@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Leaning - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2024-09-11T16:54:41.559Z</entry>
+<entry key="groupId">com.adobe.learning</entry>
+<entry key="name">learning.all</entry>
+<entry key="description">All content package for AEM Leaning</entry>
+<entry key="artifactId">learning.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.learning</entry>
+</properties>

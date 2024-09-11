@@ -1,0 +1,9 @@
+org\apache\sling\scripting\sightly\apps\learning\components\xfpage\content__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\learningpanel\learningpanel__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\titlecomponent\titlecomponent__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\nestedmultifield\nestedmultifield__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\learning\components\page\customheaderlibs__002e__html.class

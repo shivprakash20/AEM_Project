@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/learning/clientlibs"/>
+    <filter root="/apps/learning/components"/>
+    <filter root="/apps/learning/i18n"/>
+    <filter root="/apps/msm/learning_blueprint" mode="merge"/>
+</workspaceFilter>

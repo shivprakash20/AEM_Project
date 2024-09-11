@@ -1,5 +1,19 @@
-.cmp-list {}
-.cmp-list__item {}
+.cmp-list {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    list-style-type: none;
+}
+
+.cmp-list__item {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
 .cmp-list__item-link {}
+
 .cmp-list__item-title {}
+
 .cmp-list__item-date {}

@@ -148,6 +148,12 @@
             <artifactId>core.wcm.components.config</artifactId>
             <type>zip</type>
         </dependency>
+        <dependency>
+            <groupId>de.valtech.aecu</groupId>
+            <artifactId>aecu.complete</artifactId>
+            <version>6.0.3</version>
+            <type>zip</type>
+        </dependency>
 
 
         <dependency>

@@ -1,6 +1,6 @@
 package com.adobe.learning.core.servlets;
 
-import com.adobe.learning.core.service.AEMUserDetails;
+import com.adobe.learning.core.service.AEMUserAndGroupDetails;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.HttpConstants;
@@ -29,7 +29,7 @@ public class AllUserDetailsServlet extends SlingSafeMethodsServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(AllUserDetailsServlet.class);
 
     @Reference
-    AEMUserDetails aemUserDetails;
+    AEMUserAndGroupDetails aemUserAndGroupDetails;
 
     @Override
     protected void doGet(final SlingHttpServletRequest request, final SlingHttpServletResponse response) {
@@ -38,9 +38,9 @@ public class AllUserDetailsServlet extends SlingSafeMethodsServlet {
             // Get content fragment name from the request object
             String userOrGroup = request.getParameter("userOrGroup");
 
-            JSONObject userDetails = aemUserDetails.getAllUserDetails(userOrGroup);
+            JSONObject userDetails = aemUserAndGroupDetails.getAllUserDetails(userOrGroup);
 
-            JSONArray groupDetails = aemUserDetails.getAllGroupDetails(userOrGroup);
+            JSONArray groupDetails = aemUserAndGroupDetails.getAllGroupDetails(userOrGroup);
 
             response.getWriter().write("User Details :" + userDetails.toString() + "\n");
 

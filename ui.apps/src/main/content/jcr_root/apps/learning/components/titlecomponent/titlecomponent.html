@@ -1,0 +1,10 @@
+<sly data-sly-test="${wcmmode.edit}">
+	<h4>Tile Multifield Component</h4>
+</sly>
+
+<sly data-sly-use.model="com.adobe.learning.core.models.TileSlingModel"></sly>
+
+<div data-sly-list.tileItem="${model.tileMultiField}">
+	<p class="tileList">${tileItem.tileTitle}</p>
+	<p class="tileList">${tileItem.tileDesc}</p>
+</div>

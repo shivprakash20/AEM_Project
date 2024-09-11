@@ -1,0 +1,10 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "jcr:createdBy": "shiv",
+  "jcr:lastModifiedBy": "shiv",
+  "jcr:created": "Fri Aug 05 2016 14:17:05 GMT-0400",
+  "articleType": "ravi",
+  "authorLimit": "10",
+  "jcr:lastModified": "Wed Dec 14 2016 16:50:08 GMT-0500",
+  "sling:resourceType": "learning/components/unit-test"
+}

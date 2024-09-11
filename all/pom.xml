@@ -137,11 +137,27 @@
                             <groupId>com.adobe.acs</groupId>
                             <artifactId>acs-aem-commons-content</artifactId>
                             <target>/apps/learning-packages/application/install</target>
-                        </embedded>
+                         </embedded>
                         <embedded>
                             <groupId>mysql</groupId>
                             <artifactId>mysql-connector-java</artifactId>
                             <target>/apps/learning-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>commons-net</groupId>
+                            <artifactId>commons-net</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>org.apache.jackrabbit.vault</groupId>
+                            <artifactId>org.apache.jackrabbit.vault.rcp</artifactId>
+                            <target>/apps/learning-packages/application/install</target>
+                        </embedded>
+
+                        <embedded>
+                            <groupId>de.valtech.aecu</groupId>
+                            <artifactId>aecu.complete</artifactId>
+                            <target>/apps/learning-packages/content/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
