@@ -1,0 +1,6 @@
+/.idea/
+/ui.frontend/dist/
+/ui.frontend/node/
+/ui.frontend/node_modules/
+/core/target/
+/ui.apps/target/
