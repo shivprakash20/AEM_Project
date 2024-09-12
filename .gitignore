@@ -4,3 +4,6 @@
 /ui.frontend/node_modules/
 /core/target/
 /ui.apps/target/
+/all/target/
+/it.tests/target/
+/ui.apps.structure/target/
